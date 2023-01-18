@@ -1,1 +1,3 @@
-# tic-tac-toe-game
+* tic-tac-toe simple two player game
+
+play game: 
