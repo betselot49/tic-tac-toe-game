@@ -14,14 +14,10 @@ function turnRegulator() {
         turn = "O"
         resultItems[2].style.color = "blue"
         resultItems[0].style.color = "white"
-        left.style.color = "gray"
-        right.style.color = "blue"
     } else {
         turn ="X"
         resultItems[0].style.color = "blue"
         resultItems[2].style.color = "white"
-        left.style.color = "blue"
-        right.style.color = "gray"
     }
 }
 
@@ -189,8 +185,6 @@ resultItems[0].addEventListener("click", () => {
     if (movesCounter === 0) {
         turn = "X"
         resultItems[0].style.color = "blue"
-        left.style.color = "blue"
-        right.style.color = "gray"
         resultItems[2].style.color = "gray"
     }
 })
@@ -198,8 +192,6 @@ resultItems[2].addEventListener("click", () => {
     if (movesCounter === 0) {
         turn = "O"
         resultItems[0].style.color = "gray"
-        left.style.color = "gray"
-        right.style.color = "blue"
         resultItems[2].style.color = "blue"
     }
 })
