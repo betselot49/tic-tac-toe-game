@@ -184,7 +184,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 300px;
-        margin: auto;
+        margin-left: 110px;
         margin-top: 30px;
     }
     
