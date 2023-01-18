@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Assets/tic tac toe icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="game-container">
+        <div class="winner1">
+            <div>
+                <p id="left">Player <sub>1</sub> (X)</p>
+                <p class="emoji" id="winner1"></p>
+            </div> 
+        </div>
+
+        <main class="container" id="container">
+            <div class="container__item-1 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-2 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-3 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-4 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-5 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-6 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-7 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-8 bord-item">
+                <p class="value"></p>
+            </div>
+            <div class="container__item-9 bord-item">
+                <p class="value"></p>
+            </div>
+        </main>
+        
+        <div class="winner2">
+            <div>
+                <p id="right">Player <sub>2</sub> (O)</p>
+                <p class="emoji" id="winner2"></p>
+            </div> 
+        </div>
+    </div>
+
+    <div class="result">
+        <div class="result__item">
+            <p>PLAYER <sub>1</sub> (X)</p>
+            <p id="player1">0</p> 
+        </div>
+        <div class="result__item">
+            <p>TIE</p>
+            <p id="tie">0</p> 
+        </div>
+        <div class="result__item">
+            <p>PLAYER <sub>2</sub> (O)</p>
+            <p id="player2">0</p> 
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

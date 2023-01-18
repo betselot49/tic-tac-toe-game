@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+    width: 90%;
+    margin: auto;
+}
+
+.winner1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.winner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.emoji {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container__item-1 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+}
+
+.container__item-2 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+}
+
+.container__item-3{
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.container__item-4 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+}
+
+.container__item-5 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+}
+
+.container__item-6 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.container__item-7 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.container__item-8 {
+    border: 4px solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.container__item-9 {
+    border: 4px solid white;
+    border: none;
+}
+
+.container div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 147px;
+    height: 147px;
+    margin: 0;
+    padding: 0;
+    font-size: 120px;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.result__item p {
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
