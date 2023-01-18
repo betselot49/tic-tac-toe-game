@@ -141,12 +141,13 @@ function GUIEffect(gameStatus) {
         left.style.color = "yellow"
         right.style.color = "yellow"
         winner1.innerHTML = "🤝"
-        winner2innerHTML + "🤝"
+        winner2.innerHTML = "🤝"
         resultItems[2].style.color = "white"
         resultItems[0].style.color = "white"
 
         bord_item.forEach((element, index) => {
             bord_item[index].style.borderColor = "yellow"
+            bord_item[index].style.color = "gray"
         })
         movesCounter = 0
         gameStatus.winner = ""
