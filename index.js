@@ -217,8 +217,10 @@ bord_item.forEach((element, index) => {
         if (gameStatus.over === true) {
             bord_item.forEach((element, index) => {
                 element.innerHTML = ""
+                bord_item[index].style.borderColor = "white"
                 bord_item[index].style.color = "white"
             })
+            
             gameStatus.cleanAfterGameOver = false
             gameStatus.over = false
             resultItems[0].style.color = "blue"
